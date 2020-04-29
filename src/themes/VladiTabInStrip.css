@@ -11,3 +11,8 @@
     background-color: yellowgreen;
     border:5px solid green;
 }
+
+/* When the li has the focus, style your custom div */
+.ui5-tab-strip-item:focus .custom-in-strip {
+    outline: 0.125rem dotted orange;
+}
