@@ -3,7 +3,7 @@
 Custom tabs for UI5 Web Components TabContainer
 
 
-##How to run the project:
+## How to run the project:
 - `npm i`
 - `npm run start`
 - Open [http://localhost:8083/test-resources/pages/index.html](http://localhost:8083/test-resources/pages/index.html) in your browser.
@@ -11,7 +11,7 @@ Custom tabs for UI5 Web Components TabContainer
 Observe the "custom" tab design in both the tab strip and overflow menu (when you shrink the browser).
 
 
-##How it works:
+## How it works:
 
 1. The app consumes the `@next` version (`0.0.0-dc606098a` or newer):
 
