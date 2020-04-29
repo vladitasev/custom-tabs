@@ -4,5 +4,10 @@
 }
 
 .custom-in-strip.special-tab {
+    font-size: 20px;
+}
+
+.custom-in-strip.selected-tab {
+    background-color: yellowgreen;
     border:5px solid green;
 }

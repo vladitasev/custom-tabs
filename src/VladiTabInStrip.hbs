@@ -11,8 +11,14 @@
     aria-labelledby="{{this.ariaLabelledBy}}"
 >
 
-    <div class="custom-in-strip {{specialClass}}">
+    <div class="{{allCustomClasses}}">
         {{this.text}}
+
+        {{#if this.special}}
+            <ui5-icon name="positive"></ui5-icon>
+        {{/if}}
+
+
     </div>
 
 </li>

@@ -1,5 +1,7 @@
 import Tab from "@ui5/webcomponents/dist/Tab.js";
 import TabContainer from "@ui5/webcomponents/dist/TabContainer.js";
+import Icon from "@ui5/webcomponents/dist/Icon.js";
+import "@ui5/webcomponents-icons/dist/icons/positive.js";
 
 // Templates
 import TabInStripTemplate from "./generated/templates/VladiTabInStripTemplate.lit.js";
@@ -23,6 +25,10 @@ class VladiTab extends Tab {
 		return metadata;
 	}
 
+	static async onDefine() {
+		await Icon.define();
+	}
+
 	static get stripTemplate() {
 		return TabInStripTemplate;
 	}
@@ -31,8 +37,10 @@ class VladiTab extends Tab {
 		return TabInOverflowTemplate;
 	}
 
-	get specialClass() {
-		return this.special ? "special-tab" : "";
+	get allCustomClasses() {
+		const isSpecial = this.special ? "special-tab" : "";
+		const isSelected = this.selected ? "selected-tab" : "";
+		return `custom-in-strip ${isSpecial} ${isSelected}`;
 	}
 }
 

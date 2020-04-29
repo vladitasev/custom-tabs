@@ -52,7 +52,7 @@ Observe the "custom" tab design in both the tab strip and overflow menu (when yo
 	``` 
 	
 	It even creates a specific property called `special` (of type `Boolean`) that allows some tabs to have
-	a different border for example. In the test sample provided, the first tab is with the `special` attribute set.
+	a different font-size for example. In the test sample provided, the first tab is with the `special` attribute set.
 
 3. The application bundles this new component, along with the Tab Container itself:
 
