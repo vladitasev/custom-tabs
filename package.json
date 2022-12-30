@@ -28,6 +28,6 @@
     "@ui5/webcomponents": "0.0.0-dc606098a",
     "@ui5/webcomponents-icons": "0.0.0-dc606098a",
     "@ui5/webcomponents-theme-base": "0.0.0-dc606098a",
-    "@ui5/webcomponents-tools": "0.0.0-dc606098a"
+    "@ui5/webcomponents-tools": "1.9.3"
   }
 }
